@@ -13,6 +13,8 @@ export namespace transactions {
 		tx.blockNumber = event.block.number
 		tx.gasLimit=  event.transaction.gasLimit
 		tx.gasPrice= event.transaction.gasPrice
+		tx.input= event.transaction.input
+		tx.nonce= event.transaction.nonce
 		tx.save()
 		return tx as Transaction
 	}
