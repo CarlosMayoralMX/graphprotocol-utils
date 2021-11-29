@@ -11,6 +11,8 @@ export namespace transactions {
 		let tx = new Transaction(event.transaction.hash.toHex())
 		tx.timestamp   = event.block.timestamp
 		tx.blockNumber = event.block.number
+		tx.gasLimit=  event.transaction.gasLimit
+		tx.gasPrice= event.transaction.gasPrice
 		tx.save()
 		return tx as Transaction
 	}

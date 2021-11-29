@@ -3,6 +3,8 @@
   "fields": [
     { "name": "timestamp",   "type": "BigInt!"                          },
     { "name": "blockNumber", "type": "BigInt!"                          },
+    { "name": "gasLimit", "type": "BigInt!"                          },
+    { "name": "gasPrice", "type": "BigInt!"                          },
     { "name": "events",      "type": "Event!", "derived": "transaction" }
   ]
 }]
