@@ -1,0 +1,14 @@
+[{
+    "name": "Block",
+    "fields": [
+      { "name": "hash",   "type": "Bytes!"                          },
+      { "name": "number", "type": "BigInt!"                          },
+      { "name": "gasUsed", "type": "BigInt!"                          },
+      { "name": "gasLimit", "type": "BigInt!"                          },
+      { "name": "timestamp", "type": "BigInt!"                          },
+      { "name": "difficulty", "type": "BigInt!"                          },
+      { "name": "size", "type": "BigInt"                          }
+
+    ]
+  }]
+  

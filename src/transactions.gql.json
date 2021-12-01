@@ -5,9 +5,11 @@
     { "name": "blockNumber", "type": "BigInt!"                          },
     { "name": "gasLimit", "type": "BigInt!"                          },
     { "name": "gasPrice", "type": "BigInt!"                          },
-    { "name": "input", "type": "Bytes!"                          },
-    { "name": "nonce", "type": "BigInt!"                          },
-    { "name": "logIndex", "type": "BigInt!"                          },
+    { "name": "nonce", "type": "BigInt"                          },
+    { "name": "input", "type": "Bytes"                          },
+    { "name": "logIndex", "type": "BigInt"                          },
+    { "name": "transactionLogIndex", "type": "BigInt"                          },
+    { "name": "logType", "type": "String"                          },
     { "name": "events",      "type": "Event!", "derived": "transaction" }
   ]
 }]
